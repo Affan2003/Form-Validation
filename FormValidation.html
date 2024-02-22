@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="heading">Form Validation</h1>
+    <!-- SignIn Form -->
+    <form id="signInForm" class="form">
+        <h2>Sign In</h2>
+        <div class="form-group">
+            <input type="text" id="signInUsername" placeholder="User ID or Email">
+        </div>
+        <div class="form-group">
+            <input type="password" id="signInPassword" placeholder="Password (at least one special character)">
+        </div>
+        <input type="submit" value="Sign In">
+    </form>
+
+    <!-- SignUp Form -->
+    <form id="signUpForm" class="form">
+        <h2>Sign Up</h2>
+        <div class="form-group">
+            <input type="text" id="signUpFullName" placeholder="Full Name">
+        </div>
+        <div class="form-group">
+            <input type="email" id="signUpEmail" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <input type="password" id="signUpPassword" placeholder="Password (at least one special character)">
+        </div>
+        <div class="form-group">
+            <input type="text" id="signUpContact" placeholder="Contact">
+        </div>
+        <div class="form-group">
+            <input type="text" id="signUpGender" placeholder="Gender">
+        </div>
+        <div class="form-group">
+            <input type="number" id="signUpAge" placeholder="Age">
+        </div>
+        <div class="form-group">
+            <input type="text" id="signUpCity" placeholder="City">
+        </div>
+        <div class="form-group">
+            <input type="text" id="signUpCountry" placeholder="Country">
+        </div>
+        <input type="submit" value="Sign Up">
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
